@@ -11,7 +11,7 @@ asi recurrir cuando se necesite
 Usando este formato en postman:
 
 
-{
+    {
     "Title": "Almacenar tarea" ,
     "Description": "Usar el formato JSON para mandar los datos",
     "Completed": true,
@@ -19,11 +19,12 @@ Usando este formato en postman:
     "Commentary":"",
     "Responsable":"",
     "Tags":""
-}
+    }
 
 Software de prueba usado:
               Postman
 Servidor local:
+
               http://localhost:3000/
 
 ID Tarea de prueba:
@@ -36,31 +37,52 @@ Miguel Angel Lopez Puebla
  Codigo Para Gestion de tareas mediante js, express, nodeJS
 
 
-comandos utilizados para el funcionamiento del servidor
+comandos utilizados para el funcionamiento del 
 
-npm i mongodb
-        instalacion de modulos de mongodb
+Si fallan los modulos, borrar e instalar de nuevo con este comando
 
-npm i express
-        instalacion de modulos de express
-
-npm init -y
-        creacion de package.json
-
-npm audit fix
-        corregir vulnerabilidades
-
-npm run dev
-        correr el servidor por nodemon
-
-npm i morgan
-        registro de request del servidor
-
-npm i nodemon
-        herramienta para correr y actualizar el servidor tiempo real
-
-npm i mongoose
-        instalar el comunicador a la base de datos de mongoDB
+    npm install
+  
+   
+   instalacion de modulos de mongodb
         
-npm run dev     
-        para correr el servidor
+        npm i mongodb
+     
+
+        
+instalacion de modulos de express
+
+    npm i express
+        
+
+        
+creacion de package.json
+
+    npm init -y
+        
+
+corregir vulnerabilidades
+
+        npm audit fix
+
+ correr el servidor por nodemon
+                        
+    npm run dev
+       
+
+registro de request del servidor
+
+    npm i morgan
+        
+herramienta para correr y actualizar el servidor tiempo real
+
+        npm i nodemon
+    
+ instalar el comunicador a la base de datos de mongoDB
+
+    npm i mongoose
+       
+para correr el servidor   
+
+    npm run dev     
+    

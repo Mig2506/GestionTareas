@@ -1,8 +1,11 @@
+//omporacion de mongoose
 const mongoose = require('mongoose');
-const { Timestamp } = require('mongoose');
+
 
 // Crear el eschema
 const productSchema = mongoose.Schema(
+ 
+ //base de datos no relacional
   {
     Title: {
       type: String,

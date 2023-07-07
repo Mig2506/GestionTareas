@@ -122,6 +122,8 @@ app.put('/Tarea/:id', async (req, res) => {
   }
 });
 
+
+//conexion a base de datos 
 mongoose
   .connect('mongodb+srv://Miguel:1234@pruebatrabajo.uijjsxy.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,

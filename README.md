@@ -37,51 +37,42 @@ Miguel Angel Lopez Puebla
  Codigo Para Gestion de tareas mediante js, express, nodeJS
 
 
-comandos utilizados para el funcionamiento del 
-
-Si fallan los modulos, borrar e instalar de nuevo con este comando
+Si fallan los modulos, borrar e instalar de nuevo con este comando y seguir en orden los comandos siguientes
 
     npm install
   
-   
-   instalacion de modulos de mongodb
+instalacion de modulos de express
+
+    npm i express  
+
+instalacion de modulos de mongodb
         
         npm i mongodb
      
-
-        
-instalacion de modulos de express
-
-    npm i express
-        
-
-        
 creacion de package.json
 
     npm init -y
+
+ instalar el comunicador a la base de datos de mongoDB
+
+    npm i mongoose
+
         
+herramienta para correr y actualizar el servidor tiempo real
 
-corregir vulnerabilidades
+        npm i nodemon
 
-        npm audit fix
-
- correr el servidor por nodemon
-                        
-    npm run dev
-       
 
 registro de request del servidor
 
     npm i morgan
         
-herramienta para correr y actualizar el servidor tiempo real
 
-        npm i nodemon
-    
- instalar el comunicador a la base de datos de mongoDB
+corregir vulnerabilidades
 
-    npm i mongoose
-       
+        npm audit fix
+     
+      
 para correr el servidor   
 
     npm run dev     

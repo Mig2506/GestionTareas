@@ -56,8 +56,7 @@ app.use(morgan("dev")); //configuracion para tener un registro en la terminal qu
 // Obtener todas las tareas
 app.get("/", async (req, res) => {
 
-  res.send("Hola Invocador!!, gracias por abrir el navegador y entrar al host!, Disfrute su revision y testeo!");
-  res.send("Miguel Angel Lopez Puebla" +
+  res.send("Hola Invocador!!, gracias por abrir el navegador y entrar al host!, Disfrute su revision y testeo!" + "Miguel Angel Lopez Puebla" +
   "3328359396" +
   "Miguel.LopezP25@outlook.com");
 

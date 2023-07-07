@@ -37,7 +37,7 @@ Miguel Angel Lopez Puebla
  Codigo Para Gestion de tareas mediante js, express, nodeJS
 
 
-Si fallan los modulos, borrar e instalar de nuevo con este comando y seguir en orden los comandos siguientes
+Si fallan los modulos, borrar la carpeta node_modules e instalar de nuevo con este comando y seguir en orden los comandos siguientes
 
     npm install
   

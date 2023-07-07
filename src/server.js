@@ -47,8 +47,8 @@ const morgan = require('morgan');
 
 
 //CONFIGURACIONES
-const app = express();
-const port = 3000;
+const app = express(); //inicializar express para usarlo
+const port = 3000;  //puerto
 app.use(express.json());
 app.use(morgan('dev'));
 

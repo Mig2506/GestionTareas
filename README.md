@@ -37,7 +37,11 @@ Miguel Angel Lopez Puebla
  Codigo Para Gestion de tareas mediante js, express, nodeJS
 
 
-comandos utilizados para el funcionamiento del servidor
+comandos utilizados para el funcionamiento del 
+
+Si fallan los modulos, borrar e instalar de nuevo con este comando
+
+    npm install
   
    
    instalacion de modulos de mongodb
